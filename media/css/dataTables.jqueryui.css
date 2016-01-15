@@ -480,3 +480,76 @@ table.dataTable tfoot th.ui-state-default:first-child {
 .dataTables_wrapper .dataTables_paginate {
   color: inherit;
 }
+
+/*
+ * VGest
+ */
+.dataTables_wrapper .dataTables_paginate .fg-button {
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: 1.5em;
+  padding: 0.5em;
+  margin-left: 2px;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+  *cursor: hand;
+  border: 1px solid #8D2020;
+}
+.dataTables_wrapper .dataTables_paginate .fg-button:active {
+  outline: none;
+}
+.dataTables_wrapper .dataTables_paginate .fg-button:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.dataTables_wrapper .dataTables_paginate .fg-button:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.dataTables_wrapper .ui-widget-header {
+  font-weight: normal;
+}
+.dataTables_wrapper .ui-toolbar {
+  padding: 8px;
+}
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+  border-bottom: none;
+}
+
+td.details-control span {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  background-image: url("/admin/stock/boletos/js/jquery-ui-1.11.4/images/ui-icons_000000_256x240.png");
+  background-position: -32px -128px;
+  background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+  text-indent: -99999px;
+}
+
+tr.shown td.details-control span {
+  height: 16px;
+  width: 16px;
+  background-image: url("/admin/stock/boletos/js/jquery-ui-1.11.4/images/ui-icons_000000_256x240.png");
+  background-position: -96px -128px;
+  background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+  text-indent: -99999px;
+}
+
+.select_jquery_ui {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+table.dataTable tbody tr .td_detail {
+  padding: 0px;
+}
+
+table.dataTable tbody tr td.datatable-td-icon {
+  width: 16px;
+  cursor: pointer;
+}
