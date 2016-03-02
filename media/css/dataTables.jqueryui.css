@@ -554,7 +554,7 @@ table.dataTable tbody tr td.datatable-td-icon {
   cursor: pointer;
 }
 
-table.dataTable tbody tr td.datatable-td-icon span {
+td.datatable-td-icon span {
   background-image: url("/admin/stock/boletos/js/jquery-ui-1.11.4/images/ui-icons_000000_256x240.png");
   background-position: -32px -128px;
   background-repeat: no-repeat;
@@ -564,4 +564,27 @@ table.dataTable tbody tr td.datatable-td-icon span {
   overflow: hidden;
   text-indent: -99999px;
   width: 16px;
+}
+
+tr.shown td.datatable-td-icon span {
+  height: 16px;
+  width: 16px;
+  background-image: url("/admin/stock/boletos/js/jquery-ui-1.11.4/images/ui-icons_000000_256x240.png");
+  background-position: -96px -128px;
+  background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+  text-indent: -99999px;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignCenter {
+  text-align: center;
 }
