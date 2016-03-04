@@ -588,3 +588,7 @@ tr.shown td.datatable-td-icon span {
 .alignCenter {
   text-align: center;
 }
+
+.dataTables_length select {
+  margin: 0px;
+}
