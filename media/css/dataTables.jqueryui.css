@@ -521,7 +521,7 @@ td.details-control span {
   cursor: pointer;
   height: 16px;
   width: 16px;
-  background-image: url("/admin/stock/boletos/js/jquery-ui-1.11.4/images/ui-icons_000000_256x240.png");
+  background-image: url("/library/bower_components/jquery-ui/themes/VGest/images/ui-icons_000000_256x240.png");
   background-position: -32px -128px;
   background-repeat: no-repeat;
   display: block;
@@ -532,7 +532,7 @@ td.details-control span {
 tr.shown td.details-control span {
   height: 16px;
   width: 16px;
-  background-image: url("/admin/stock/boletos/js/jquery-ui-1.11.4/images/ui-icons_000000_256x240.png");
+  background-image: url("/library/bower_components/jquery-ui/themes/VGest/images/ui-icons_000000_256x240.png");
   background-position: -96px -128px;
   background-repeat: no-repeat;
   display: block;
@@ -555,7 +555,7 @@ table.dataTable tbody tr td.datatable-td-icon {
 }
 
 td.datatable-td-icon span {
-  background-image: url("/admin/stock/boletos/js/jquery-ui-1.11.4/images/ui-icons_000000_256x240.png");
+  background-image: url("/library/bower_components/jquery-ui/themes/VGest/images/ui-icons_000000_256x240.png");
   background-position: -32px -128px;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -569,7 +569,7 @@ td.datatable-td-icon span {
 tr.shown td.datatable-td-icon span {
   height: 16px;
   width: 16px;
-  background-image: url("/admin/stock/boletos/js/jquery-ui-1.11.4/images/ui-icons_000000_256x240.png");
+  background-image: url("/library/bower_components/jquery-ui/themes/VGest/images/ui-icons_000000_256x240.png");
   background-position: -96px -128px;
   background-repeat: no-repeat;
   display: block;
